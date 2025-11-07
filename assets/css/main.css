@@ -2529,3 +2529,8 @@ input, select, textarea {
   flex-direction: column;
   justify-content: space-between; /* keeps button aligned at bottom */
 }
+
+.agency-logo.text-logo img {
+  margin-top: 20px;
+  border-radius: 0;     /* remove circle for text logos */
+}
