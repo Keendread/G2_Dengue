@@ -2512,3 +2512,20 @@ input, select, textarea {
   padding: 5px;          /* optional: breathing space */
   box-shadow: 0 0 10px rgba(0,0,0,0.1); /* subtle shadow */
 }
+
+.row.aln-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.row.aln-center > [class*="col-"] {
+  display: flex;
+}
+
+.box.style2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* keeps button aligned at bottom */
+}
