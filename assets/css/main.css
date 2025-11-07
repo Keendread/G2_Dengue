@@ -304,7 +304,9 @@ input, select, textarea {
 		}
 
 		.row.aln-center {
+			display: flex;
 			justify-content: center;
+			align-items: stretch;
 		}
 
 		.row.aln-right {
@@ -2443,3 +2445,70 @@ input, select, textarea {
 					}
 
 	}
+
+.research-list {
+  text-align: left;
+  font-size: 1.1em;
+  line-height: 1.7em;
+  margin: 1em auto;
+  max-width: 900px;
+}
+
+.research-list li {
+  margin-bottom: 0.75em;
+}
+
+.box.style2 {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 2em;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+#overview .row.aln-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+#overview .box.style1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hypothesis-list {
+  list-style-type: none;       /* remove default bullets */
+  text-align: left;            /* align text to the left */
+  margin: 0;                   /* remove default margins */
+  padding-left: 0;             /* remove indent spacing */
+}
+
+.hypothesis-list li {
+  position: relative;
+  margin-bottom: 1em;
+  line-height: 1.6em;
+  padding-left: 1.8em;         /* spacing for custom bullet */
+}
+
+/* optional: custom round bullet */
+.hypothesis-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0.4em;
+  color: #008080;              /* your accent color */
+  font-size: 1.2em;
+}
+
+.agency-logo img {
+  width: 100px;          /* adjust logo size */
+  height: auto;          /* keep aspect ratio */
+  display: block;
+  margin: 0 auto 1em;    /* center horizontally, space below */
+  margin-top: 20px;
+  border-radius: 50%;    /* optional: circular crop */
+  background: #fff;      /* optional: add contrast */
+  padding: 5px;          /* optional: breathing space */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* subtle shadow */
+}
