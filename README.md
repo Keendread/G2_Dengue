@@ -28,3 +28,6 @@ https://colab.research.google.com/drive/1TRMnJ0s_ypaA-fQsJAeAK8uRTWajDTQ5?usp=sh
 
 Machine Learning Model: Recurrent Neural Network for Time Forecasting \
 https://colab.research.google.com/drive/1dCV--vHEcVuNz16ZXUMhKfv04rhJUWqb?usp=sharing
+
+ARIMA Analysis: \
+https://colab.research.google.com/drive/14hy9BAQge8Xs0W2xgtHqJKz4YVjJuwIB?usp=sharing
