@@ -21,13 +21,3 @@ https://docs.google.com/spreadsheets/d/1rGc0Oint2SYdJxRkJ4zayDEOKIrVsdmNwAiCC6FN
 
 .csv Files for Dengue Cases : \
 https://drive.google.com/drive/folders/104Ras_ZqyhTwDldchars1fIZE7pXXt-q?usp=sharing 
-
-## Colab Links
-Case Regression Charts and Mann-Kendall Analysis: \
-https://colab.research.google.com/drive/1TRMnJ0s_ypaA-fQsJAeAK8uRTWajDTQ5?usp=sharing 
-
-Machine Learning Model: Recurrent Neural Network for Time Forecasting \
-https://colab.research.google.com/drive/1dCV--vHEcVuNz16ZXUMhKfv04rhJUWqb?usp=sharing
-
-ARIMA Analysis: \
-https://colab.research.google.com/drive/14hy9BAQge8Xs0W2xgtHqJKz4YVjJuwIB?usp=sharing
